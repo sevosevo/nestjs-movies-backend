@@ -7,9 +7,9 @@ export const databaseProvider = {
     await createConnection({
       type: 'mysql',
       host: 'localhost',
-      username: 'root',
-      password: 'sevo1389',
-      database: 'test',
+      username: 'USERNAME',
+      password: 'PWD',
+      database: 'DBNAME',
       synchronize: true,
       entities: [__dirname + '/../**/*.entity{.ts,.js}'],
     }),
